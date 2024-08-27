@@ -1,0 +1,14 @@
+{
+  // https://nuxt.com/docs/guide/concepts/typescript
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "target": "ESNext",
+    "types": [
+      "vuetify", //This is necessary for typed extensions of vuetify's components.
+    ],
+    "typeRoots": [
+      "types"
+    ],
+ 
+  }
+}
